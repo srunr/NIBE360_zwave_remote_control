@@ -8,13 +8,12 @@ of NIBE360 and using Arduino UNO as the shield for the relay board VMA 436. The 
 pins 1 - 5 and drive output pins 8 - 12 with active LOW. 5 relay switches and 2 input alarms are defined based on the information 
 in the manual http://www.nibeonline.com/pdf/411482-1.pdf page 17 and onwards.
 
-// Pins definitions
-#define R1_TARIFF_A_PIN 9
-#define R2_TARIFF_B_PIN 10
-#define R3_SHUNT_PLUS5_PIN 11
-#define I1_HP_ALARM_PIN 12 (not connected/used in this version of the controller)
-#define I2_LP_ALARM_PIN 19 (not connected/used in this version of the controller)
-#define R4_EXTRA_WARM_WATER_PIN 20
-#define R5_FAN_SPEED_II_PIN 21
+R1_TARIFF_A_PIN 9
+R2_TARIFF_B_PIN 10
+R3_SHUNT_PLUS5_PIN 11
+I1_HP_ALARM_PIN 12 (not connected/used in this version of the controller)
+I2_LP_ALARM_PIN 19 (not connected/used in this version of the controller)
+R4_EXTRA_WARM_WATER_PIN 20
+R5_FAN_SPEED_II_PIN 21
 
 
